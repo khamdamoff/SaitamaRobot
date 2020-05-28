@@ -17,29 +17,29 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
-I am an Anime themed group management bot.
-To add me to your group click ["HERE"](t.me/SaitamaRobot?startgroup=botstart)
-You can find my list of available commands with /help.
-
-[Saitama's Repo](github.com/AnimeKaizoku/SaitamaRobot) 
-See [Basic Configuration Checklist](t.me/OnePunchUpdates/29) on how to secure your group.
-The support group chat is at {}.
+("[┏┓━┏┓━━━━┏┓━┏┓━━━━━ \n┃┃━┃┃━━━━┃┃━┃┃━━━━━ \n┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓ \n┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃ \n┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃ \n┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛](http://t.me/MrsFridayBot?startgroup=true)\n\n"
+Hello, This Is Me Friday !!
+I Am Here To Manage You Groups 🤟!
+⚡My Satellite is⚡ : 🛰️Stark-2.0🛰️
+I am Stark Assistant But Came To Telegram To Help You Manage Your Awesome Groups!
+I am Made With Extra Features 🙂!
+So! Now I Add Me To Group Fast 😁!!!!!
+Click /help To See My Awesome Features!!
 """
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a Hero For Fun and help admins manage their groups with One Punch! Have a look at the following for an idea of some of \
+I'm Friday And I help admins manage their groups with One Punch! Have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:
- - /start: start the bot
- - /help: PM's you this message.
- - /help <module name>: PM's you info about that module.
- - /donate: information about how to donate!
- - /settings:
-   - in PM: will send you your settings for all supported modules.
-   - in a group: will redirect you to pm, with all that chat's settings.
+ ➪︎ /start: start the bot
+ ➪︎ /help: PM's you this message.
+ ➪︎ /help <module name>: PM's you info about that module.
+ ➪︎ /donate: information about how to donate!
+ ➪︎ /settings:
+   ⚡ in PM: will send you your settings for all supported modules.
+   ⚡ in a group: will redirect you to pm, with all that chat's settings.
 
 
 {}
@@ -47,9 +47,9 @@ And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Saitama is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
-You can donate to the original writer of the Base code, Paul
-There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+I am Very Happy About It And Thank You But Sorry I Don't Need Money 💵! 
+But If You Want You Can Help Me By Buying CC Or Anything ☺
+"""
 
 IMPORTED = {}
 MIGRATEABLE = []
